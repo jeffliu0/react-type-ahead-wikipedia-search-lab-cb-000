@@ -19,7 +19,11 @@ class Autocomplete extends React.Component {
 
   componentDidMount() {
   // TODO
+<<<<<<< HEAD
   this.removeListener = resultStore.addListener( ({results}) => {
+=======
+  this.removeListener = resultStore.addListener( {results} => {
+>>>>>>> 1245b638d83ca63e96ef6bfe2782abf2dadca139
    this.setState({results});
 })
 }
